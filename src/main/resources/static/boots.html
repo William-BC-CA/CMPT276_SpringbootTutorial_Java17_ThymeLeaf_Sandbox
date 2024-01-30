@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src = "/js/script.js" defer></script>
+</head>
+<body>
+    <header>LOGO
+        <nav>
+            <ul>
+                <li>LINK 1</li>
+                <li>LINK 2</li>
+                <li>LINK 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main class = "container">
+        <h1>MAIN CONTENT</h1>
+        <div class = "row">
+            <p class = "col-md-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Donec bibendum, quam vitae aliquam ullamcorper, nunc libero aliquam odio, quis aliquam nunc nunc v
+            </p>
+
+            <p class = "col-md-6">
+                Morbi ac felis vitae ante luctus vestibulum. Aliquam quis tincidunt dolor.
+            </p>
+        </div>
+        <div class = "row">
+            <aside>
+                Sed <a id = "mylink" href = "www.sfu.ca">LINK</a> pharetra diam leo. Donec nec nisl auctor, ultrices nunc sed, aliquam nunc. Sed euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquet nisl nisl nec nisl. Sed euismod, nisl nec aliquet ultricies, nunc nisl ultricies nunc, nec aliquet nisl nisl nec nisl.
+            </aside>
+        </div>
+        <figure>
+            <img src = "/img/image.jpg" alt = "baby" title = "smiling baby">
+            <figcaption>BABY DRAWING</figcaption>
+        </figure>
+
+        <table class = "table table-striped">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Registration</legend>
+                <label for = "fname">First Name: </label> <input class = "form-control" name = "fname" type = "text" id = "fname"> <br>
+                <label for = "color">Team Color: </label> <input name = "color" type = "color" id = "color"> <br>
+                <input list = "subject" name = "sub">
+                <datalist id = "subject">
+                    <option value = "Javascript">JS</option>
+                    <option value = "html">HTML</option>
+                    <option value = "css">CSS</option>
+                </datalist>
+                <input class = "btn btn-primary" type = "submit" value = "SuBmIt">
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        Copyright 2024
+    </footer>
+</body>
+</html>
