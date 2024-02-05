@@ -19,6 +19,6 @@ public class CarsController {
         cars.add(new Cars("Honda","Civic",2018,"1.6L","Black",12000,30000,"Used"));
         cars.add(new Cars("Nissan","Sentra",2017,"1.8L","Silver",10000,40000,"Old"));
         model.addAttribute("voiture", cars);
-        return "cars/previewAll";
+        return "cars/previewTable";
     }
 }
