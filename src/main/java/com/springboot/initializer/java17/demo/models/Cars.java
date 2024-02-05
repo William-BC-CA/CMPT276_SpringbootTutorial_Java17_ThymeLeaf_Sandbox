@@ -5,6 +5,7 @@ public class Cars {
     private String model;
     private int year;
     private String engine;
+    private String engineName;
     private String color;
     private int price;
     private int mileage;
@@ -13,16 +14,25 @@ public class Cars {
     public Cars() {
     }
 
-    public Cars(String manufacturer, String model, int year, String engine, String color, int price, int mileage,
-            String condition) {
+    public Cars(String manufacturer, String model, int year, String engine, String engineName, String color, int price,
+            int mileage, String condition) {
         this.manufacturer = manufacturer;
         this.model = model;
         this.year = year;
         this.engine = engine;
+        this.engineName = engineName;
         this.color = color;
         this.price = price;
         this.mileage = mileage;
         this.condition = condition;
+    }
+
+    public String getEngineName() {
+        return engineName;
+    }
+
+    public void setEngineName(String engineName) {
+        this.engineName = engineName;
     }
 
     public String getManufacturer() {

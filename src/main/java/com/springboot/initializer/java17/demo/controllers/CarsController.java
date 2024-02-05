@@ -15,9 +15,9 @@ public class CarsController {
     public String getAllCars(Model model){
         System.out.println("Getting all cars");
         List<Cars> cars = new ArrayList<>();
-        cars.add(new Cars("Toyota","Corolla",2019,"1.8L","White",15000,20000,"New"));
-        cars.add(new Cars("Honda","Civic",2018,"1.6L","Black",12000,30000,"Used"));
-        cars.add(new Cars("Nissan","Sentra",2017,"1.8L","Silver",10000,40000,"Old"));
+        cars.add(new Cars("Toyota","Corolla",2019,"1.8L","2ZR-FAE", "White",15000,20000,"New"));
+        cars.add(new Cars("Honda","Civic",2018,"1.6L","SOHC VTEC (D16Y8)", "Black",12000,30000,"Used"));
+        cars.add(new Cars("Nissan","Sentra",2017,"1.8L","RE4F03B","Silver",10000,40000,"Old"));
         model.addAttribute("voiture", cars);
         return "cars/previewTable";
     }
